@@ -65,7 +65,7 @@ const Footer = () => {
             </li>
             <li className="h-[100px]">
               <ConfettiButton className="dark:text-white dark:hover:text-black  bg-[#28218d] h-[45px]">
-                <a className="text-2xl font-bold " href="">
+                <a className="text-2xl font-bold " href="/register">
                   Ro'yxatdan o'tish
                 </a>
               </ConfettiButton>

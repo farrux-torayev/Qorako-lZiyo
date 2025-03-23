@@ -2,6 +2,7 @@ import { BoxReveal } from "@/components/magicui/box-reveal";
 import { ConfettiButton } from "@/components/magicui/confetti";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
 import Iphone15Pro from "@/components/magicui/iphone-15-pro";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -42,9 +43,11 @@ const Header = () => {
         </BoxReveal>
 
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-          <ConfettiButton className="mt-[1.6rem] dark:text-white dark:hover:text-black  bg-[#28218d] ml-[50px] h-[45px]">
-            Ro'yxatdan o'tish uchun
-          </ConfettiButton>
+          <Link href="/register">
+            <ConfettiButton className="mt-[1.6rem] dark:text-white dark:hover:text-black  bg-[#28218d] ml-[50px] h-[45px]">
+              Ro'yxatdan o'tish uchun
+            </ConfettiButton>
+          </Link>
         </BoxReveal>
       </div>
       <div className="relative">
